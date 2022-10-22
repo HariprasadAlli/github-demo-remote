@@ -18,6 +18,8 @@ public class LoginTest {
 	@Test
 	public void login() {
 		
+		System.out.println("Hello I have updated");
+		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
